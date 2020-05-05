@@ -1,3 +1,19 @@
+.theme-main-navbar {
+  box-shadow: 0 10px 50px -5px rgba(0,0,0,.15);
+  @media (max-width: 768px) {
+    .nav-link {
+      border-bottom: 1px solid $light;
+    }
+  }
+
+}
+
+.theme-main-navbar .dropdown-menu {
+  border: none;
+  @media (min-width: 768px) {
+    box-shadow: 0 10px 50px -5px rgba(0,0,0,.15);
+  }
+}
 
 
 .theme-sub-navbar {
@@ -36,6 +52,7 @@
   .theme-sub-navbar-mobile{
     display: none;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -43,6 +60,7 @@
   .theme-sub-navbar-desktop {
     display: none;
   }
+
 }
 
 .theme-sub-navbar-mobile {
@@ -52,4 +70,23 @@
 
 .theme-sub-navbar .im::before {
   vertical-align: sub;
+}
+
+.theme-navbar-toggler {
+    border: unset;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.theme-navbar-toggler-icon {
+  color: $primary;
+  background: none!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.3rem;
+}
+
+main {
+  height: 200vh;
 }
