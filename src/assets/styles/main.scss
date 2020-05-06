@@ -18,7 +18,10 @@
  * It's a best practice to use a partial for each page
  */
 
+@import "layouts/navigation";
 @import "layouts/home";
+@import "layouts/footer";
+
 
 /**
  * Do NOT include anything else in this file!
