@@ -4,9 +4,13 @@
 
 
 /* Main nav bar estyles */
+.theme-custom-shadow {
+  box-shadow: 0 .15rem 1.75rem 0 rgba(33,37,41,.15)!important;
+}
 
 .theme-main-navbar {
   box-shadow: 0 10px 50px -5px rgba(0,0,0,.15);
+  background: #FFF;
   @media (max-width: 768px) {
     .nav-link { border-bottom: 1px solid $light;}
   }

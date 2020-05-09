@@ -2,7 +2,44 @@
 /* ---------- Footer styles  ---------- */
 /* ---------------------------------------- */
 
-footer {
-  background: $dark;
-  height: 200px;
+.theme-footer-link-border {
+
+}
+
+li.theme-footer-link-border {
+  padding: .5rem!important;
+}
+
+.theme-footer-link-border::before {
+  content: "|";
+  padding-right: 1rem;
+  @media (max-width: 768px) { content: "";padding: .5rem!important;}
+}
+
+
+.theme-footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0;
+  }
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    grid-gap:0;
+  }
+}
+
+.theme-footer-grid-container ul {
+  margin: auto;
+}
+
+.theme-footer-breadcrumb {
+  background: $light;
+}
+
+.theme-footer-breadcrumb i {
+  font-size: 18px;
 }
