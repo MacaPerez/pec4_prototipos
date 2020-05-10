@@ -1,11 +1,15 @@
-// Tipografías //
+/* ---------------------------------------- */
+/* ------ Custom bootstarp styles  -------- */
+/* ---------------------------------------- */
+
+// Fonts //
 
 $font-family-sans-serif: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-// Colores //
+// Colors //
 
 $primary: #201C5B;
-$secondary: #1B1B1B;
+$secondary: #483FCD;
 $success:#007765;
 $info: #0171E2;
 $warning:#FE9100;
@@ -23,3 +27,14 @@ $theme-colors: (
     "light":      $light,
     "dark":       $dark
 );
+
+// Headings //
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+
+$h1-font-size:                $font-size-base * 2.3 !default;
+$h2-font-size:                $font-size-base * 1.7 !default;
+$h3-font-size:                $font-size-base * 1.45 !default;
+$h4-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.1 !default;
+$h6-font-size:                $font-size-base !default;

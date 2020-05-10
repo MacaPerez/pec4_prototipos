@@ -17,7 +17,7 @@
 <body>
     <header class="fixed-top">
         <!-- Theme-sub-navbar desktop start -->
-        <nav class="theme-sub-navbar theme-sub-navbar-desktop navbar-dark bg-primary px-md-5">
+        <nav class="theme-sub-navbar theme-sub-navbar-desktop navbar-dark bg-primary px-lg-5">
             <div class="d-flex flex-column flex-lg-row justify-content-md-between">
 
                 <div class="d-flex align-items-center justify-content-center">
@@ -100,7 +100,39 @@
     <!-------------------------->
 
     <!-- Main.php code start--->
-    <main>
+    <main class="text-dark theme-main">
+
+        <div class="container py-5">
+            <div class="row">
+                <h1 class="col-12 text-center">Página de noticias</h1>
+            </div>
+            <!--- Most recent article start--->
+            <a class="theme-recent-article" href="#" title="Ir a: Título del artículo">
+                <article class="row px-0 mx-0 my-4">
+                    <div class="col-lg-8">
+                        <img class="img-fluid" src="/assets/images/tenerife.jpg" alt="Texto alternativo de la imagen destacada">
+                    </div>
+                    <div class="col-lg-4 pl-lg-2 my-2 mx-md-0 my-lg-0">
+                        <p class="text-info"><small>CATEGORÍA 2</small></p>
+                        <h2 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</h2>
+                        <p><time datetime="aaaa-mm-dd hh:mm">dd mm aaa</time></p>
+                        <p class="theme-recent-article-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <button class="btn btn-secondary" title="Continuar leyendo: Título del post">Continuar leyendo</button>
+                    </div>
+                </article>
+            </a><!--- Most recent article end --->
+        </div>
+
+
+        <!--- The oher articles start--->
+        <div>
+
+        </div>
+        <!--- The oher articles end --->
+
     </main>
     <!-- Main.php code end --->
     <!-------------------------->
@@ -115,7 +147,7 @@
                     <li class="breadcrumb-item active"><a href="#">Inicio</a></li>
                 </ol>
             </nav>
-            
+
             <div class="text-center text-xs-center text-sm-left text-md-left">
                 <div class="theme-footer-grid-container ">
                     <ul class="list-unstyled mb-0">
@@ -140,8 +172,7 @@
                         <li><a href="#">Nombre de la página</a></li>
                     </ul>
                 </div>
-        </section>
-        <!-- Footer breadcrumbs & sitemap end -->
+        </section><!-- Footer breadcrumbs & sitemap end -->
 
         <!-- Legal & Copyright start -->
         <section class="page-footer font-small bg-primary text-white text-center">
@@ -154,8 +185,7 @@
             <div class="footer-copyright text-center pb-4">© 2020 Copyright:
                 <a class="text-white" href="#"> Company name</a>
             </div>
-        </section>
-        <!-- Legal & Copyright end -->
+        </section><!-- Legal & Copyright end -->
 
     </footer>
 
