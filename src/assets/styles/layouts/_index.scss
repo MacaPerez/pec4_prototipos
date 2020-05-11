@@ -2,13 +2,21 @@
 /* ---------- Index.php styles  ----------- */
 /* ---------------------------------------- */
 
+.index h1 {
+  font-weight: 800;
+}
+
+.index h2 {
+  font-weight: 600;
+}
+
 .theme-main > .container:first-child {
   margin-top: 6rem;
   @media (max-width: 991px) { margin-top: 8rem;}
   @media (max-width: 768px) { margin-top: 3rem; }
 }
 
-.theme-recent-article {
+.theme-recent-article, .theme-article {
   text-decoration: none!important;
 }
 
@@ -40,7 +48,21 @@
   }
 }
 
-.theme-recent-article h2:hover {
+.theme-article h2 {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 4.1rem;
+  margin: 0 auto .7rem auto;
+  line-height: 1.2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.theme-recent-article h2:hover,
+.theme-article h2:hover {
     color: $secondary;
 }
 
@@ -49,7 +71,7 @@
   display: -webkit-box;
   max-width: 100%;
   height: 7.1rem;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 2rem auto;
   line-height: 1.2;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
@@ -61,11 +83,28 @@
   }
 }
 
+.theme-article-text {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 4.8rem;
+  margin: 0 auto 1rem auto;
+  line-height: 1.2;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media (max-width: 991px) {
+    height: 3.5rem;
+    -webkit-line-clamp: 3;
+  }
+}
+
 .theme-recent-article button {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.theme-recent-article button:hover {
-
+.theme-article button {
+  padding: 0;
 }

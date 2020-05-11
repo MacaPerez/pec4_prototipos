@@ -16,6 +16,10 @@
   }
 }
 
+.theme-main-navbar form {
+@media (max-width: 768px) {box-shadow: none!important;}
+}
+
 .theme-main-navbar .dropdown-menu {
   border: none;
   @media (min-width: 768px) { box-shadow: 0 10px 50px -5px rgba(0,0,0,.15);}

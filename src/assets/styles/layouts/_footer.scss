@@ -6,11 +6,11 @@
 
 }
 
-li.theme-footer-link-border {
+li.theme-footer-link-border, .theme-space-border {
   padding: .5rem!important;
 }
 
-.theme-footer-link-border::before {
+.theme-footer-link-border::before, .theme-space-border::before {
   content: "|";
   padding-right: 1rem;
   @media (max-width: 768px) { content: "";padding: .5rem!important;}
