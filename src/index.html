@@ -43,7 +43,7 @@
 
         <!-- Theme-main-navbar start -->
         <nav class="theme-main-navbar navbar navbar-expand-md navbar-light px-md-5">
-            <a class="navbar-brand theme-navbar-brand" href="/index.html"><img src="/assets/images/theme_logo.png" alt="Logo provisional del tema" title="Inicio" class="img-fluid"><span class="sr-only">Inicio</span></a>
+            <a class="navbar-brand theme-navbar-brand" href="index.html"><img src="/assets/images/theme_logo.png" alt="Logo provisional del tema" title="Inicio" class="img-fluid"><span class="sr-only">Inicio</span></a>
             <button class="navbar-toggler theme-navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon theme-navbar-toggler-icon"><i class="im im-menu" aria-hidden="true"></i></span>
             </button>
@@ -51,7 +51,7 @@
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="single-side.html">Single-sidebar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -101,7 +101,7 @@
 
     <!-- Main.php code start--->
     <main class="text-dark theme-main index pb-5">
-
+      <!-- Container start ---->
         <div class="container py-5">
             <div class="row">
                 <h1 class="col-12 text-center">Página de noticias</h1>
@@ -125,12 +125,12 @@
                         <button class="btn btn-secondary" title="Continuar leyendo: Título del post">Continuar leyendo</button>
                     </div>
                 </article>
-            </a>
-            <!--- Most recent article end --->
+            </a><!--- Most recent article end --->
 
-            <!--- The oher articles start--->
-            <div class="row px-0 mx-0 my-4">
 
+            <!--- The other articles start--->
+            <section class="">
+              <div class="row px-0 mx-0 my-4">
                 <a class="theme-article my-2 col-12 col-md-6 col-lg-4" href="#" title="Ir a: Título del artículo">
                     <article class="theme-custom-shadow p-3">
                         <div class="">
@@ -253,10 +253,9 @@
                         </div>
                     </article>
                 </a>
-
-            </div>
-            <!--- The oher articles end --->
-        </div>
+              </div>
+            </section><!--- The other articles end --->
+        </div><!-- Container end ---->
     </main>
     <!-- Main.php code end --->
     <!-------------------------->

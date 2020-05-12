@@ -16,7 +16,9 @@
   @media (max-width: 768px) { margin-top: 3rem; }
 }
 
-.theme-recent-article, .theme-article {
+.theme-recent-article,
+.theme-article,
+.theme-sidebar-article {
   text-decoration: none!important;
 }
 
@@ -62,7 +64,8 @@
 }
 
 .theme-recent-article h2:hover,
-.theme-article h2:hover {
+.theme-article h2:hover,
+.theme-sidebar-article h4:hover{
     color: $secondary;
 }
 
