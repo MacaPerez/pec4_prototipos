@@ -1,0 +1,28 @@
+/* ---------------------------------------- */
+/* ---------- Posts styles  -------------- */
+/* ---------------------------------------- */
+
+.theme-main > .theme-hero {
+  margin-top: 6rem;
+  @media (max-width: 991px) { margin-top: 8rem;}
+  @media (max-width: 768px) { margin-top: 3rem; }
+}
+
+.theme-post-hero-title {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin: auto;
+  color: red;
+  text-align: center;
+}
+
+.dark-image {
+  filter: brightness(50%);
+}
+
+.theme-hero img {
+  min-height: 60vh;
+  object-fit: cover;
+}

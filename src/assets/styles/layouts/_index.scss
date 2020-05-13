@@ -2,11 +2,14 @@
 /* ---------- Index.php styles  ----------- */
 /* ---------------------------------------- */
 
-.index h1 {
+.index h1,
+.single-sidebar h1,
+.single-post h1 {
   font-weight: 800;
 }
 
-.index h2 {
+.index h2,
+.single-sidebar h2 {
   font-weight: 600;
 }
 
