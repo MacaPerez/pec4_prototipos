@@ -79,3 +79,13 @@
   font-style: italic;
   @media (max-width: 768px) { margin: 1.5rem auto;}
 }
+
+.theme-prev-post i {
+  font-size: 12px;
+  padding-right: .25rem;
+}
+
+.theme-next-post i {
+  font-size: 12px;
+  padding-left: .25rem;
+}

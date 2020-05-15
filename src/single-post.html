@@ -115,33 +115,33 @@
         <!-- Container start ---->
         <section class="container py-5">
             <!-- Article start ---->
-            <article class="theme-post row">
+            <article class="theme-post row d-flex">
                 <!-- Article aside start---->
-                <aside class="col-12 col-md-3 mb-2 px-0">
+                <aside class="col-12 col-md-3 px-lg-0 order-3 order-md-1">
                     <p class="h6 text-black-50 mb-5 text-secondary font-weight-bold">CATEGORÍA 1</p>
 
                     <div class="theme-post-data-time mb-5">
                         <p class="h6 text-black-50 font-weight-bold">PUBLICADO POR:</p>
-                        <p><time datetime="aaaa-mm-dd hh:mm" class="">dd mm aaa</time>
-                            <br>
-                            <adress class="">Nombre Autor</adress>
+                        <p><adress class="">Nombre Autor <span class="ml-2 ml-lg-0 d-md-none">|</span></adress>
+                            <br class="d-none d-md-block">
+                            <time datetime="aaaa-mm-dd hh:mm" class="ml-2 ml-lg-0">dd mm aaa</time>
                         </p>
                     </div>
 
                     <div class="theme-post-tags">
                         <p class="h6 text-black-50 font-weight-bold">ETIQUETAS:</p>
                         <ul class="list-inline list-unstyled">
-                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etieueta 1,</a></li>
-                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etieueta 2,</a></li>
-                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etieueta 3,</a></li>
-                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etieueta 4,</a></li>
-                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etieueta 5</a></li>
+                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 1,</a></li>
+                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 2,</a></li>
+                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 3,</a></li>
+                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 4,</a></li>
+                            <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 5</a></li>
                         </ul>
                     </div>
                 </aside><!-- Article aside end ---->
 
                 <!-- Post body start---->
-                <div class="col-12 col-md-9 pl-md-3">
+                <div class="col-12 col-md-9 pl-md-3 order-2">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
                         lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
                         dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
@@ -151,13 +151,17 @@
                     <p>Expetenda tincidunt in sed, ex partem placerat sea, porro commodo ex eam. His putant aeterno interesset at. Usu ea mundi tincidunt, omnium virtute aliquando ius ex. Ea aperiri sententiae duo. Usu nullam dolorum quaestio ei, sit
                         vidit facilisis ea. Per ne impedit iracundia neglegentur. Consetetur neglegentur eum ut, vis animal legimus inimicus id.</p>
 
-                    <blockquote class="blockquote">His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico munere propriae. Vel
+                    <blockquote class="blockquote">His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico
+                        munere propriae. Vel
                         ferri. Possim alterum qui cu. </blockquote>
 
                     <h2>Est ei erat mucius quaeque.</h2>
                     <p>Est ei erat mucius quaeque. Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum
                         soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.</p>
-                    <img src="/assets/images/teneride-2.jpg" alt="Texto alternativo de la imagen" class="img-fluid">
+                    <figure class="figure">
+                        <img src="/assets/images/teneride-2.jpg" class="figure-img img-fluid rounded" alt="Texto alternativo de la imagen">
+                        <figcaption class="figure-caption">Subtítulo de la imagen.</figcaption>
+                    </figure>
                     <h3>Vis id minim dicant sensibus.</h3>
                     <p>Vis id minim dicant sensibus. Pri aliquip conclusionemque ad, ad malis evertitur torquatos his. Has ei solum harum reprimique, id illum saperet tractatos his. Ei omnis soleat antiopam quo. Ad augue inani postulant mel, mel ea
                         qualisque forensibus.</p>
@@ -171,6 +175,24 @@
     </main>
     <!-- Main.php code end --->
     <!-------------------------->
+  <hr class="solid">
+    <!-- Previous & Next posts start ---->
+  <section class="container my-5">
+    <div class="row">
+      <div class=" col-6">
+        <p class="text-uppercase text-muted h6 mb-2">Anterior</p>
+        <a class="theme-prev-post text-info btn-link" href="#" title="Ir a: Titular de la publicación anterior">
+          <i class="im im-angle-left" aria-hidden="true"></i>Titular de la publicación anterior</a>
+      </div>
+      <div class=" col-6 text-right">
+        <p class="text-uppercase text-muted h6 mb-2">Siguiente</p>
+        <a class="theme-next-post text-info btn-link" href="#" title="Ir a: Titular de la publicación siguiente">
+          Titular de la publicación anterior<i class="im im-angle-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- Previous & Next posts end --->
+  <!-------------------------------->
 
     <!--- Footer.php code start--->
     <footer>
@@ -221,7 +243,6 @@
                 <a class="text-white" href="#"> Company name</a>
             </div>
         </section><!-- Legal & Copyright end -->
-
     </footer>
 
 
