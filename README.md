@@ -21,12 +21,12 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 
 ## Guía de estilo
 
-[Guía de estilo](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre:
+[Guía de estilo](https://projects.invisionapp.com/dsm/tfm-uoc/guia-de-estilo-tfm) con especificaciones sobre:
 
-* [El uso del color](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/colors/5e9df70cfcfef91677092d01)
-* [Estilos de texto](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/typeStyles/5e9df70cfcfef94d24092d00)
-* [Iconografía](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/icons/5e9df70cfcfef9218e092cfe)
-* [Fuente utilizada por el Tema](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/fonts/5e9df70cfcfef9315d092cfc)
+* [El uso del color](https://projects.invisionapp.com/dsm/tfm-uoc/guia-de-estilo-tfm/folder/colors/5e9df70cfcfef91677092d01)
+* [Estilos de texto](https://projects.invisionapp.com/dsm/tfm-uoc/guia-de-estilo-tfm/folder/typeStyles/5e9df70cfcfef94d24092d00)
+* [Iconografía](https://projects.invisionapp.com/dsm/tfm-uoc/guia-de-estilo-tfm/folder/icons/5e9df70cfcfef9218e092cfe)
+* [Fuente utilizada por el Tema](https://projects.invisionapp.com/dsm/tfm-uoc/guia-de-estilo-tfm/folder/fonts/5e9df70cfcfef9315d092cfc)
 
 
 
