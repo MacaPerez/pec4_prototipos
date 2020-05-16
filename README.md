@@ -1,9 +1,13 @@
-# UOC TFM
+# PEC4 | Desarrollo de prototipos
+* Este repositorio recoge el proceso de desarrollo de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
+* Este trabajo se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición con herramienta de prototipado Adobe XD como base.
+    * [Revisión del diseño](https://xd.adobe.com/view/e236626f-4b02-4257-63f0-dd5e73dfe7bb-9407/?fullscreen)
+    * [Detalles de desarrollo](https://xd.adobe.com/view/eb2aae40-ac3e-4697-7b4f-3c3fa6dc2aed-9d1b/grid)
 
-El objetivo principal del proyecto es la producción de un Tema listo para usar enWordpress facilitando el cumplimiento de todos los requisitos de accesibilidad a los gestoresde contenidos.
+## UOC TFM
 
-## PEC4 | Desarrollo de prototipos
-Producción de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
+El objetivo principal del proyecto es la producción de un Tema listo para usar en
+Wordpress facilitando el cumplimiento de todos los requisitos de accesibilidad a los gestores de contenidos.
 
 ## Tecnología
 
@@ -15,10 +19,10 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 ## Guía de estilo
 
 [Guía de estilo](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre:
-* El uso del [color](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/colors/5e9df70cfcfef91677092d01)
-* Estilos de [texto](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/typeStyles/5e9df70cfcfef94d24092d00)
+* [El uso del color](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/colors/5e9df70cfcfef91677092d01)
+* [Estilos de texto](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/typeStyles/5e9df70cfcfef94d24092d00)
 * [Iconografía](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/icons/5e9df70cfcfef9218e092cfe)
-* [Fuente](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/fonts/5e9df70cfcfef9315d092cfc) utilizada por el Tema
+* [Fuente utilizada por el Tema](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/fonts/5e9df70cfcfef9315d092cfc)
 
 
 # FLUJO DE DESARROLLO | UOC Boilerplate
