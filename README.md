@@ -18,7 +18,7 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 * [Adobe XD](https://www.adobe.com/es/products/xd.html) como editor de gráficos vectoriales para el diseño y creación de prototipos de la interfaz gráfica de usuario en páginas web y aplicaciones móviles.
 * [WordPress](https://wordpress.org/) como herramienta de mercado para el diseño web, cuyo lenguaje deprogramación es PHP y base de datos MySQL.
 * [Bootstrap](https://github.com/twbs/bootstrap) como framework para la maquetación de las páginas en HTML5, CSS yjQuery adaptando las limitaciones que puedan tener algunos componentes.
-* [UOC Boilerlate](https://github.com/uoc-advanced-html-css/uoc-boilerplate) como plantilla base para el desarrollo de los prototipos incluyendo variables personalizadas de Bootstrap.
+* [UOC Boilerlate](https://github.com/uoc-advanced-html-css/uoc-boilerplate) como plantilla base para el desarrollo de los prototipos incluyendo [variables personalizadas de Bootstrap](https://github.com/MacaPerez/pec4_origin/blob/master/src/assets/styles/_variables.scss).
 
 ## Guía de estilo
 
