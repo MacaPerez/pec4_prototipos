@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://macaperez.github.io/pec4_origin/"
   },
-  "homepage": "",
+  "homepage": "https://macaperez.github.io/pec4_origin/index.html",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
