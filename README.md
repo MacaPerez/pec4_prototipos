@@ -1,6 +1,7 @@
 # PEC4 | Desarrollo de prototipos
 * Este repositorio recoge el proceso de desarrollo de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
-* Este trabajo se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición con herramienta de prototipado Adobe XD como base.
+* Este trabajo se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición con herramienta de prototipado Adobe XD como base:
+
     * [Revisión del diseño](https://xd.adobe.com/view/e236626f-4b02-4257-63f0-dd5e73dfe7bb-9407/?fullscreen)
     * [Detalles del prototipo](https://xd.adobe.com/view/eb2aae40-ac3e-4697-7b4f-3c3fa6dc2aed-9d1b/grid)
 
