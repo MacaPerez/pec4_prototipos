@@ -1,29 +1,34 @@
-<!-- Header.php code start --->
-
 <!DOCTYPE html>
 
-<html>
 <html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <title>HOME | PEC 4 | PROTOTIPO</title>
     <meta name="description" content="Descripción del contenido de la página, normalmente entre dos o tres líneas (156 caracteres)" />
 </head>
 
 <body>
     <header class="fixed-top">
+        <!-- Skip link list start -->
+        <a href="#menu" class="sr-only sr-only-focusable theme-skip-link">Saltar al Menú</a>
+        <a href="#content" class="sr-only sr-only-focusable theme-skip-link">Saltar al contenido principal</a>
+        <a href="#footer" class="sr-only sr-only-focusable theme-skip-link">Saltar al pie de página</a>
+        <!-- Skip link list end -->
+
         <!-- Theme-sub-navbar desktop start -->
         <nav class="theme-sub-navbar theme-sub-navbar-desktop navbar-dark bg-primary px-lg-5">
             <div class="d-flex flex-column flex-lg-row justify-content-md-between">
 
               <div class="d-flex align-items-center justify-content-center">
                   <ul class="d-flex flex-column flex-md-row list-unstyled">
-                      <li class="mr-2 text-light"><adress class="m-auto">Calle, número N. Ciudad. Código postal</adress></li>
+                      <li class="mr-2 text-light"><p class="m-auto">Calle, número N. Ciudad. Código postal</p></li>
                       <li class="mx-2 text-light"><a class="text-light m-auto" href="tel:+34123456789" title="Llamar por teléfono"><i class="im im-phone" aria-hidden="true"></i>+34 123 456 789</a></li>
                       <li class="mx-2 text-light"><a class="text-light m-auto" href="mailto:info@empresa.com" title="Enviar un email"><i class="im im-mail" aria-hidden="true"></i>info@empresa.com</a></li>
                   </ul>
@@ -41,7 +46,7 @@
         </nav> <!-- Theme-sub-navbar desktop end -->
 
         <!-- Theme-main-navbar start -->
-        <nav class="theme-main-navbar navbar navbar-expand-md navbar-light px-md-5">
+        <nav id="menu" class="theme-main-navbar navbar navbar-expand-md navbar-light px-md-5">
             <a class="navbar-brand theme-navbar-brand" href="index.html"><img src="/assets/images/theme_logo.png" alt="Logo provisional del tema" title="Inicio" class="img-fluid"><span class="sr-only">Inicio</span></a>
             <button class="navbar-toggler theme-navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon theme-navbar-toggler-icon"><i class="im im-menu" aria-hidden="true"></i></span>
@@ -75,10 +80,10 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <ul class="d-flex flex-column flex-md-row list-unstyled">
                                 <li class="mx-2">
-                                    <adress class="m-auto text-primary">Calle, número N. Ciudad. Código postal</adress>
+                                    <p class="m-auto text-primary">Calle, número N. Ciudad. Código postal</p>
                                 </li>
-                                <li class="mx-2"><a class="m-auto text-primary" href="tel:+34123456789" title="Llamar por teléfono"><i class="im im-phone" aria-hidden="true"></i>+34 123 456 789</a</li> <li class="mx-2"><a class="m-auto text-primary"
-                                          href="mailto:info@empresa.com" title="Enviar un email"><i class="im im-mail" aria-hidden="true"></i>info@empresa.com</a></li>
+                                <li class="mx-2"><a class="m-auto text-primary" href="tel:+34123456789" title="Llamar por teléfono"><i class="im im-phone" aria-hidden="true"></i>+34 123 456 789</a></li>
+                                <li class="mx-2"><a class="m-auto text-primary" href="mailto:info@empresa.com" title="Enviar un email"><i class="im im-mail" aria-hidden="true"></i>info@empresa.com</a></li>
                             </ul>
                         </div>
 
@@ -95,11 +100,11 @@
             </div>
         </nav><!-- Theme-main-navbar end -->
     </header>
-    <!-- Header.php code end --->
-    <!-------------------------->
+    <!-- Header.php code end -->
 
-    <!-- Main.php code start--->
-    <main class="single-post theme-main pb-5">
+
+    <!-- Main.php code start -->
+    <main id="content" class="single-post theme-main pb-5">
         <div class="theme-hero">
             <div class="theme-hero-inner">
                 <div class="theme-hero-container">
@@ -110,19 +115,19 @@
                 </div>
             </div>
         </div>
-        <!-- Container start ---->
+        <!-- Container start -->
         <section class="container py-5">
-            <!-- Article start ---->
+            <!-- Article start -->
             <article class="theme-post row d-flex">
-                <!-- Article aside start---->
+                <!-- Article aside start-->
                 <aside class="col-12 col-md-3 px-lg-0 order-3 order-md-1">
                     <p class="h6 text-black-50 mb-5 text-secondary font-weight-bold">CATEGORÍA 1</p>
 
                     <div class="theme-post-data-time mb-5">
                         <p class="h6 text-black-50 font-weight-bold">PUBLICADO POR:</p>
-                        <p><adress class="">Nombre Autor <span class="ml-2 ml-lg-0 d-md-none">|</span></adress>
+                        <p><span class="">Nombre Autor <span class="ml-2 ml-lg-0 d-md-none">|</span></span>
                             <br class="d-none d-md-block">
-                            <time datetime="aaaa-mm-dd hh:mm" class="ml-2 ml-lg-0">dd mm aaa</time>
+                            <time datetime="2020-05-01 14:50" class="ml-2 ml-lg-0">dd mm aaa</time>
                         </p>
                     </div>
 
@@ -136,9 +141,9 @@
                             <li class="list-inline-item"><a class="text-info" href="#" title="Ir a: post correspondientes a esta etiqueta">Etiqueta 5</a></li>
                         </ul>
                     </div>
-                </aside><!-- Article aside end ---->
+                </aside><!-- Article aside end -->
 
-                <!-- Post body start---->
+                <!-- Post body start-->
                 <div class="col-12 col-md-9 pl-md-3 order-2">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
                         lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
@@ -167,14 +172,14 @@
                     <p>Lorem salutandi eu mea, eam in soleat iriure assentior. Tamquam lobortis id qui. Ea sanctus democritum mei, per eu alterum electram adversarium. Ea vix probo dicta iuvaret, posse epicurei suavitate eam an, nam et vidit
                         menandri. Ut his accusata petentium.</p>
 
-                </div><!-- Post body end---->
-            </article><!-- Article end ---->
-        </section><!-- Container end ---->
+                </div><!-- Post body end-->
+            </article><!-- Article end -->
+        </section><!-- Container end -->
     </main>
-    <!-- Main.php code end --->
-    <!-------------------------->
+    <!-- Main.php code end -->
+
   <hr class="solid">
-    <!-- Previous & Next posts start ---->
+    <!-- Previous & Next posts start -->
   <section class="container my-5">
     <div class="row">
       <div class=" col-6">
@@ -189,16 +194,16 @@
       </div>
     </div>
   </section>
-  <!-- Previous & Next posts end --->
-  <!-------------------------------->
+  <!-- Previous & Next posts end -->
 
-    <!--- Footer.php code start--->
-    <footer>
+    <!-- Footer.php code start -->
+    <footer id="footer">
         <!-- Footer breadcrumbs & sitemap start -->
         <section class="p-5 bg-light">
+          <h5 class="sr-only">Mapa de sitio</h5>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb theme-footer-breadcrumb text-primary">
-                    <li class="">Tu estás aquí: <i class="im im-home mx-2" aria-hidden="true"></i></li>
+                    <li class="">Tu estás aquí:<i class="im im-home mx-2" aria-hidden="true"></i></li>
                     <li class="breadcrumb-item active"><a href="#">Inicio</a></li>
                 </ol>
             </nav>
@@ -227,10 +232,12 @@
                         <li><a href="#">Nombre de la página</a></li>
                     </ul>
                 </div>
+                </div>
         </section><!-- Footer breadcrumbs & sitemap end -->
 
         <!-- Legal & Copyright start -->
         <section class="page-footer font-small bg-primary text-white text-center">
+          <h5 class="sr-only">Información legal</h5>
             <ul class="list-unstyled text-center pt-4 d-md-flex justify-content-center">
                 <li class="nav-link"><a class="text-white" href="#" title="ir a información de Aviso legal">Aviso legal</a></li>
                 <li class="nav-link theme-footer-link-border"><a class="text-white" href="#" title="ir a información de Política de Privacidad">Política de Privacidad</a></li>
@@ -249,5 +256,4 @@
 </body>
 
 </html>
-<!--- Footer.php code end ---->
-<!---------------------------->
+<!--- Footer.php code end -->
