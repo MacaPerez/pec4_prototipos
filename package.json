@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:MacaPerez/pec4_prototipos.git"
   },
   "author": {
     "name": "Macarena Perez Carrillo",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "git@github.com:MacaPerez/pec4_prototipos.git/index.html"
   },
   "homepage": "",
   "devDependencies": {
