@@ -2,17 +2,19 @@
 
 El objetivo principal del proyecto es la producción de un Tema listo para usar enWordpress facilitando el cumplimiento de todos los requisitos de accesibilidad a los gestoresde contenidos.
 
-## PEC4
+## PEC4 | Desarrollo de prototipos
 Producción de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
 
-## TECNOLOGÍA
+## Tecnología
 
 Desde el punto de vista de la solución tecnológica se propone utilizar las siguientesplataformas, framework y complemento de terceros:
 * [WordPress](https://wordpress.org/) como herramienta de mercado para el diseño web, cuyo lenguaje deprogramación es PHP y base de datos MySQL.
 * [Bootstrap](https://github.com/twbs/bootstrap) como framework para la maquetación de las páginas en HTML5, CSS yjQuery adaptando las limitaciones que puedan tener algunos componentes.
 * [UOC Boilerlate](https://github.com/uoc-advanced-html-css/uoc-boilerplate) como plantilla base para el desarrollo de los prototipos incluyendo variables personalizadas de Bootstrap.
 
-## GUÍA DE ESTILO
+## Guía de estilo
+
+* [Guía de estilo](https://www.google.com/url?q=https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre el uso del color, estilos de texto, iconografía y fuente utilizada por el tema.
 
 
 # FLUJO DE DESARROLLO | UOC Boilerplate
