@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MacaPerez/pec4_origin.git"
+    "url": ""
   },
   "author": {
     "name": "Macarena Perez Carrillo",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://macaperez.github.io/pec4_origin/"
+    "url": ""
   },
-  "homepage": "https://macaperez.github.io/pec4_origin/index.html",
+  "homepage": "",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
