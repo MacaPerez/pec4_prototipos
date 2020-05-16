@@ -1,3 +1,16 @@
+# UOC TFM
+
+El objetivo principal del proyecto es la producción de un Tema listo para usar enWordpress facilitando el cumplimiento de todos los requisitos de accesibilidad a los gestoresde contenidos.
+
+## PEC4
+Producción de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
+
+## TECNOLOGÍA
+
+Desde el punto de vista de la solución tecnológica se propone utilizar las siguientesplataformas, framework y complemento de terceros:
+* WordPress como herramienta de mercado para el diseño web, cuyo lenguaje deprogramación es PHP y base de datos MySQL.
+* Bootstrap como framework para la maquetación de las páginas en HTML5, CSS yjQuery adaptando las limitaciones que puedan tener algunos componentes.
+
 # UOC Boilerplate
 
 UOC Boilerplate is a starter template for the Advanced HTML and CSS Tools course from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image optimizer, and development tools.
