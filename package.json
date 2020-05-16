@@ -2,7 +2,7 @@
   "name": "uoc-boilerplate",
   "version": "2.4.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "UOC TFM | PEC4 Tema WP Accesible | Construcción de prototipos basad en 'Boilerplate for Advanced HTML/CSS Tools UOC students' una herramienta de Jordi Tarrida",
   "scripts": {
     "parcel:dev": "parcel src/index.html -p 8123 --open",
     "parcel:build": "parcel build src/index.html --public-url ./ --out-dir dist --no-source-maps --no-cache",
@@ -16,8 +16,8 @@
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Macarena Perez Carrillo",
+    "email": "macaperez@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
