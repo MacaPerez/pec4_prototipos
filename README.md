@@ -14,7 +14,11 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 
 ## Guía de estilo
 
-* [Guía de estilo](https://www.google.com/url?q=https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre el uso del color, estilos de texto, iconografía y fuente utilizada por el tema.
+[Guía de estilo](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre:
+* El uso del [color](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/colors/5e9df70cfcfef91677092d01)
+* Estilos de [texto](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/typeStyles/5e9df70cfcfef94d24092d00)
+* [Iconografía](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/icons/5e9df70cfcfef9218e092cfe)
+* [Fuente](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/fonts/5e9df70cfcfef9315d092cfc) utilizada por el Tema
 
 
 # FLUJO DE DESARROLLO | UOC Boilerplate
