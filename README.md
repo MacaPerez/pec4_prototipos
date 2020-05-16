@@ -63,7 +63,7 @@ Esta es la versión 2.0 de UOC Boilerplate, disponible desde el semestre UOC 201
 * Informe de errores legible.
 
 
-#CONTACTO
+# CONTACTO
 
-Macarena Pérez Carrillo ([Linkedin](https://www.linkedin.com/in/maca-perez/))
-Alumna del Máster de Aplicaciones Multimedia de la [Universidad Oberta de Cataluña](https://www.uoc.edu/portal/es/index.html)
+* Macarena Pérez Carrillo ([Linkedin](https://www.linkedin.com/in/maca-perez/))
+* Alumna del Máster de Aplicaciones Multimedia de la [Universidad Oberta de Cataluña](https://www.uoc.edu/portal/es/index.html)
