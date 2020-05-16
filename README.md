@@ -1,4 +1,5 @@
 # PEC4 | Desarrollo de prototipos
+
 * Este repositorio recoge el proceso de desarrollo de prototipos en HTML, CSS y JS que se usarán para la creación del Tema.
 * Este trabajo se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición con herramienta de prototipado Adobe XD como base:
 
@@ -13,6 +14,8 @@ Wordpress facilitando el cumplimiento de todos los requisitos de accesibilidad a
 ## Tecnología
 
 Desde el punto de vista de la solución tecnológica se propone utilizar las siguientesplataformas, framework y complemento de terceros:
+
+* [Adobe XD](https://www.adobe.com/es/products/xd.html) como editor de gráficos vectoriales para el diseño y creación de prototipos de la interfaz gráfica de usuario en páginas web y aplicaciones móviles.
 * [WordPress](https://wordpress.org/) como herramienta de mercado para el diseño web, cuyo lenguaje deprogramación es PHP y base de datos MySQL.
 * [Bootstrap](https://github.com/twbs/bootstrap) como framework para la maquetación de las páginas en HTML5, CSS yjQuery adaptando las limitaciones que puedan tener algunos componentes.
 * [UOC Boilerlate](https://github.com/uoc-advanced-html-css/uoc-boilerplate) como plantilla base para el desarrollo de los prototipos incluyendo variables personalizadas de Bootstrap.
@@ -20,10 +23,12 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 ## Guía de estilo
 
 [Guía de estilo](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme) con especificaciones sobre:
+
 * [El uso del color](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/colors/5e9df70cfcfef91677092d01)
 * [Estilos de texto](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/typeStyles/5e9df70cfcfef94d24092d00)
 * [Iconografía](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/icons/5e9df70cfcfef9218e092cfe)
 * [Fuente utilizada por el Tema](https://projects.invisionapp.com/dsm/tfm-uoc/wp-wcag-2-1-theme/folder/fonts/5e9df70cfcfef9315d092cfc)
+
 
 
 # FLUJO DE DESARROLLO | UOC Boilerplate
@@ -31,7 +36,6 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 UOC Boilerplate es un conjunto de herramientas y una plantilla de inicio para el curso de Herramientas avanzadas de HTML y CSS de la Asignatura [Herramientas Avanzadas de HTML y CSS](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) y el [Máster universitario de Desarrollo de Sitios y Aplicaciones Web](https://estudios.uoc.edu/es/masters-universitarios/desarrollo-sitios-aplicaciones-web/presentacion) en la [Universitat Oberta de Catalunya](https: // www. uoc.edu). Su objetivo es proporcionar un paquete de desarrollo web front-end básico y moderno basado en Parcel e incluye un compilador Sass, un transpilador ES6, minificadores, un optimizador de imagen y herramientas de desarrollo.
 
 Esta es la versión 2.0 de UOC Boilerplate, disponible desde el semestre UOC 2018-2.
-
 
 ## Características
 
@@ -54,7 +58,7 @@ Esta es la versión 2.0 de UOC Boilerplate, disponible desde el semestre UOC 201
 
 * Optimización de imagen con [`parcel-plugin-imagemin`](https://github.com/DeMoorJasper/parcel-plugin-imagemin), basado en [` imagemin`](https://github.com/imagemin/imagemin) , en producción.
 
-### Development
+### Desarrollo
 
 * Lanzamiento del servidor de desarrollo y recarga en vivo en los cambios de archivos.
 * Informe de errores legible.
