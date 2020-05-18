@@ -16,6 +16,7 @@ $warning:#FE9100;
 $danger:#D60246;
 $light: #F3F3F3;
 $dark: #2B3445;
+$black:#000000;
 
 $theme-colors: (
     "primary":    $primary,
@@ -38,3 +39,8 @@ $h3-font-size:                $font-size-base * 1.45 !default;
 $h4-font-size:                $font-size-base * 1.25 !default;
 $h5-font-size:                $font-size-base * 1.1 !default;
 $h6-font-size:                $font-size-base !default;
+
+
+// Navs
+
+$navbar-light-color:                rgba($black, .7) !default;

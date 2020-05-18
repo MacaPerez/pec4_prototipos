@@ -25,6 +25,10 @@
 .theme-main-navbar {
   box-shadow: 0 10px 50px -5px rgba(0,0,0,.15);
   background: #FFF;
+  .nav-link { margin-left: .7rem; margin-right: .7rem;}
+  .nav-link.active {
+      font-weight: 600;
+  }
   @media (max-width: 768px) {
     .nav-link { border-bottom: 1px solid $light;}
   }
@@ -106,4 +110,8 @@
 
 .theme-sub-navbar .im::before {
     vertical-align: sub;
+}
+
+.text-black-50 {
+  color: #5e6879!important;
 }

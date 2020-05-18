@@ -42,6 +42,7 @@
   left: 15%;
   z-index: 10;
   color: #fff;
+  background: rgba(33, 37, 41, 0.1);
   text-align: center;
   padding-top:2.5rem;
   @media (max-width: 991px) { padding-top:3rem;}
@@ -68,7 +69,7 @@
 .theme-post h4,
 .theme-post h5,
 .theme-post h6 {
-  color: #6c757d;
+  color: #5e6879;
 }
 
 .theme-post blockquote {
