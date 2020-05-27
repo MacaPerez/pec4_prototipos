@@ -1,7 +1,7 @@
 # PEC4 | Desarrollo de prototipos
 
 * Este repositorio recoge el proceso de desarrollo de prototipos en HTML, CSS y JS que se usarán para la creación de un Tema Accesible para usar en Wordpress.
-* DEMO de los prototipos en HTML: (https://macaperez.github.io/pec4_demo/)
+* [DEMO de los prototipos en HTML](https://macaperez.github.io/pec4_demo/)
 * El trabajo expuesto se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición como base:
 
     * [Revisión del diseño](https://xd.adobe.com/view/e236626f-4b02-4257-63f0-dd5e73dfe7bb-9407/?fullscreen)
