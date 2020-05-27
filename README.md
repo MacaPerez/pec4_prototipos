@@ -33,7 +33,7 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 
 # FLUJO DE DESARROLLO | UOC Boilerplate
 
-UOC Boilerplate es un conjunto de herramientas y una plantilla de inicio para el curso de Herramientas avanzadas de HTML y CSS de la Asignatura [Herramientas Avanzadas de HTML y CSS](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) y el [Máster universitario de Desarrollo de Sitios y Aplicaciones Web](https://estudios.uoc.edu/es/masters-universitarios/desarrollo-sitios-aplicaciones-web/presentacion) en la Universitat Oberta de Catalunya (https://www.uoc.edu)
+UOC Boilerplate es un conjunto de herramientas y una plantilla de inicio para el curso de Herramientas avanzadas de HTML y CSS de la Asignatura [Herramientas Avanzadas de HTML y CSS](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) y el [Máster universitario de Desarrollo de Sitios y Aplicaciones Web](https://estudios.uoc.edu/es/masters-universitarios/desarrollo-sitios-aplicaciones-web/presentacion) en la [Universitat Oberta de Catalunya](https://www.uoc.edu)
 
 Su objetivo es proporcionar un paquete de desarrollo web front-end básico y moderno basado en Parcel e incluye un compilador Sass, un transpilador ES6, minificadores, un optimizador de imagen y herramientas de desarrollo.
 
