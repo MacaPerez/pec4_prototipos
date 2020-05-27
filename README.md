@@ -1,7 +1,7 @@
 # PEC4 | Desarrollo de prototipos
 
 * Este repositorio recoge el proceso de desarrollo de prototipos en HTML, CSS y JS que se usarán para la creación de un Tema Accesible para usar en Wordpress.
-* DEMO de los prototipos en HTML: https://macaperez.github.io/pec4_demo/
+* DEMO de los prototipos en HTML: (https://macaperez.github.io/pec4_demo/)
 * El trabajo expuesto se desarrolla sobre el resultado de la fase previa de análisis, diseño y edición de prototipos estáticos en alta definición como base:
 
     * [Revisión del diseño](https://xd.adobe.com/view/e236626f-4b02-4257-63f0-dd5e73dfe7bb-9407/?fullscreen)
@@ -36,6 +36,7 @@ Desde el punto de vista de la solución tecnológica se propone utilizar las sig
 UOC Boilerplate es un conjunto de herramientas y una plantilla de inicio para el curso de Herramientas avanzadas de HTML y CSS de la Asignatura [Herramientas Avanzadas de HTML y CSS](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) y el [Máster universitario de Desarrollo de Sitios y Aplicaciones Web](https://estudios.uoc.edu/es/masters-universitarios/desarrollo-sitios-aplicaciones-web/presentacion) en la [Universitat Oberta de Catalunya](https: // www. uoc.edu). Su objetivo es proporcionar un paquete de desarrollo web front-end básico y moderno basado en Parcel e incluye un compilador Sass, un transpilador ES6, minificadores, un optimizador de imagen y herramientas de desarrollo.
 
 Esta es la versión 2.0 de UOC Boilerplate, disponible desde el semestre UOC 2018-2.
+Autor de 'UOC Boilerplate': [Jordi Tarrida] (https://github.com/jorditarrida)
 
 ## Características
 
