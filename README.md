@@ -38,6 +38,7 @@ UOC Boilerplate es un conjunto de herramientas y una plantilla de inicio para el
 Su objetivo es proporcionar un paquete de desarrollo web front-end básico y moderno basado en Parcel e incluye un compilador Sass, un transpilador ES6, minificadores, un optimizador de imagen y herramientas de desarrollo.
 
 Esta es la versión 2.0 de UOC Boilerplate, disponible desde el semestre UOC 2018-2.
+
 Autor de 'UOC Boilerplate': [Jordi Tarrida](https://github.com/jorditarrida)
 
 ## Características
